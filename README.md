@@ -12,7 +12,7 @@ I built a simple webpage that includes biographical information on myself and as
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![Lighthouse report](/img/lighthouse-report.png)
 
 ### Reflections and Comments
 
