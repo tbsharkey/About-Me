@@ -1,6 +1,7 @@
  /* Global Layout Set-up */
  * {
      box-sizing: border-box;
+
  }
 
  body {
@@ -12,8 +13,31 @@
      background: #f7f5f0;
  }
 
+ header {
+     width: 700px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ main {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ img {
+     margin-top: 25px;
+     width: 300px;
+     height: 300px;
+     border-radius: 50%;
+     border: 3px solid white;
+     transition: all .5s;
+ }
+
  article {
-     margin: 30px;
+     flex: 1;
+     margin: 80px 50px;
      padding: 20px 40px 40px;
      max-width: 500px;
      text-align: left;
@@ -21,27 +45,11 @@
      border-bottom: 4px solid #ccc;
      border-radius: 6px;
      transition: all .5s;
+     justify-content: space-between;
  }
 
  article:hover {
      border-color: #0d72ba;
- }
-
- img {
-    margin-top: 25px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 3px solid white;
-    transition: all .5s;
- }
-
- .left {
-   float: left;
- }
-
- .right {
-    float: right;
  }
 
  footer {
@@ -53,4 +61,14 @@
      color: #333;
      text-align: center;
      padding: 10px;
+ }
+
+ /* Article containers */
+
+ .left {
+     float: left;
+ }
+
+ .right {
+     float: right;
  }
