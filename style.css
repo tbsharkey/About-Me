@@ -1,10 +1,56 @@
+ /* Global Layout Set-up */
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     color: #222;
+     background: #f7f5f0;
+ }
+
+ article {
+     margin: 30px;
+     padding: 20px 40px 40px;
+     max-width: 500px;
+     text-align: left;
+     background: #fff;
+     border-bottom: 4px solid #ccc;
+     border-radius: 6px;
+     transition: all .5s;
+ }
+
+ article:hover {
+     border-color: #0d72ba;
+ }
+
+ img {
+    margin-top: 25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+ }
+
+ .left {
+   float: left;
+ }
+
+ .right {
+    float: right;
+ }
+
  footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: #f2f2f2;
-            color: #333;
-            text-align: center;
-            padding: 10px;
-        }
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #f2f2f2;
+     color: #333;
+     text-align: center;
+     padding: 10px;
+ }
