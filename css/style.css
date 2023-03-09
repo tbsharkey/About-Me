@@ -72,3 +72,11 @@
  .right {
      float: right;
  }
+
+ .clear {
+    clear: both;
+  }
+
+  .clear li {
+    margin-bottom: 10px;
+  }

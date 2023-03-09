@@ -6,7 +6,7 @@ alert(`Hello ${name}, It's nice to meet you. I have a game to play with you. You
 
 let answer1 = prompt("Was I born in Missouri?");
 answer1 = answer1.toUpperCase();
-if (answer1 === "YES") {
+if (answer1 === "NO") {
   //  console.log("Yes, that's correct."); 
   alert("Yes, that's correct.");
   score++;
