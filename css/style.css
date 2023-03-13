@@ -64,7 +64,7 @@
      padding: 10px;
  }
 
- /* Article containers */
+ /* classes */
 
  .left {
      float: left;
@@ -81,3 +81,9 @@
   .clear li {
     margin-bottom: 10px;
   }
+
+  .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}

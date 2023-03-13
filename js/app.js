@@ -142,11 +142,11 @@ askMany('Ok ${name}, now it\'s time for a guessing game.');
 // Question 7
 alert(`Ok ${name}, now it's time for the last guessing game.`);
 
-// const answers = [
-//   'Bellingham',
-//   'Portland',
-//   'Santa Cruz',
-// ];
+ const answers = [
+  'Bellingham',
+  'Portland',
+ 'Santa Cruz',
+ ];
 
 let totalScore = 0;
 
