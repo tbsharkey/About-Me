@@ -15,7 +15,7 @@ const questions = [
   },
   {
     question:'Did I work in the news media previously?',
-    answer:'yes',
+    answer:'no',
   },
   {
     question:'Did I serve in the US Navy?',
@@ -84,19 +84,22 @@ let cityCounter = 0;
 
 while (cityCounter < 6) {
   let guess = prompt('Name one of my three favorite cities.');
+  let match = false; 
 
   for (let i = 0; i < answers.length; i++) {
     if (guess === answers[i]) {
       alert("That's correct! It's one of my top three cities!");
       score++;
-      cityCounter = 6; // Exit the loop since answer is correct
+      match = true;
       break;
     }
   }
-  
-  if (cityCounter < 6) {
+
+  if (!match) {
     alert("That's not right.");
     cityCounter++;
+  } else {
+    break; 
   }
 }
 
@@ -104,4 +107,6 @@ if (cityCounter === 6) {
   alert('Sorry you are out of chances.');
 }
 
-alert(`It was a pleasure to play this game with you ${name}. You scored ${score} points! I hope you have a great day!`);
+if (score > 0) {
+  alert(`It was a pleasure to play this game with you ${name}. You scored ${score} points! I hope you have a great day!)
+};
