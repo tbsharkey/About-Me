@@ -84,6 +84,7 @@
 
   .name {
     display: block;
-    margin-right: auto;
-    color: white;
+    margin: auto;
+    color: #0d72ba;
+    text-align: center;
 }
