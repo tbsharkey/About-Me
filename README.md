@@ -149,7 +149,7 @@ Deploy your app to GitHub Pages and add any additional final touches to your CSS
 ### Links and Resources
 
 * [Github Repo](https://github.com/tbsharkey/About-Me/tree/lab05b)
-* [Github Page](https://https://tbsharkey.github.io/About-Me/)
+* [Github Page](https://tbsharkey.github.io/About-Me/)
 
 ### Lighthouse Accessibility Report Score
 
