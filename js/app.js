@@ -74,7 +74,7 @@ askMany();
 // Question 7
 alert(`Ok ${name}, now it's time for the last guessing game.`);
 
-function cityGame {
+
 
 const answers = [
   'Bellingham',
@@ -109,8 +109,6 @@ if (cityCounter === 6) {
   alert('Sorry you are out of chances.');
 }
 
-}
 
-cityGame();
 
-  alert(`It was a pleasure to play this game with you ${name}. You scored ${score} points! I hope you have a great day!)
+alert(`It was a pleasure to play this game with you ${name}. You scored ${score} points! I hope you have a great day!`);

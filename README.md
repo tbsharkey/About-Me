@@ -137,3 +137,24 @@ Improve accessibility: Collaborate on achieving better scores on accessibility a
 ### Reflections and Comments
 
 This was my first time pair programming with a classmate. We spent extra time making sure we were caught up in our abilities and asked a graduate to assist us as we were on a later schedule. He was a great resource and really broke down how functions worked and the various steps of refactoring. I was able to make some fairly easy changes to Heather's project that really make the appearance of her webpage pop out. It has also been a good oppurtunity to get to know one of my classmates which is hard given that we are all remote. I do need to continue to solidy my knowledge on loops and functions going forward.
+
+# LAB - 05B
+
+## About Me
+For the last lab I needed to further refactor the JavaScript code and make changes to the HTML and CSS to make it more visually appealing. Since I've been working on having a fully functional webpage since the first lab there wasn't much to correct for the last lab. I did instill a loop for the last question which my partner struggled to do before she ran out of time. 
+
+Instructions
+Deploy your app to GitHub Pages and add any additional final touches to your CSS. Run a Lighthouse report making sure your site scores between the 50-65 range and add a screenshot of your score to your README.md. Make sure your app is complete and meets all of the requirements from the prior labs. Remove any commented out code or console logs including any commented out console logs that were used in the questionnaire.
+
+### Links and Resources
+
+* [Github Repo](https://github.com/tbsharkey/About-Me/tree/lab05b)
+* [Github Page](https://https://tbsharkey.github.io/About-Me/)
+
+### Lighthouse Accessibility Report Score
+
+![Lighthouse report](/img/lighthouse-report4.png)
+
+### Reflections and Comments
+
+This ended up being a challenging set of labs not only because they required collaberation but there was heavy use of git actions and I was forced to work through a lot of my own mistakes. Implementing loops and functions is still something I have to get help on but will continue to solidy as my learning journey progresses. 
